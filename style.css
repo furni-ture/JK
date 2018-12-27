@@ -1,0 +1,32 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+h1 {
+  font-size: 40px;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+}
+div {
+  text-align: center;
+}
+ul {
+  text-align: left;
+  margin: 0 auto;
+  display: table;
+}
+#list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-bottom: 1px solid black;
+}
+#list1, #list2 {
+  border-right: 0.5px solid black;
+}
+#list1, #list2, #list3 {
+  padding: 10px;
+}
+#wrapper {
+  margin: 0 auto;
+}
